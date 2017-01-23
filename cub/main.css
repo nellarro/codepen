@@ -8,8 +8,7 @@ body { background: yellow;}
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
-  margin-left: -200px;
+  margin: -200px 0 0 -200px;
 }
 
 .right-eye {
@@ -21,6 +20,7 @@ body { background: yellow;}
   margin-top: 5em;
   margin-left: calc(9em + 100px)
 }
+
 .pupil{
   background: black;
   height: 30px;
@@ -33,7 +33,30 @@ body { background: yellow;}
   margin-left: calc(9em + 120px);
 }
 
-.left {
- margin-top: -2em;
- margin-left: 5em;
+.left { margin: -2em 0 0 5em; }
+
+.snout {
+  background: tan;
+  border: 1px solid black;
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+  margin: -1em 0 0 8em;
+}
+
+.nose{
+  background: black;
+  height: 30px;
+  width: 60px;
+  border-radius: 80%;
+  margin-top: 1em;
+  margin-left: 1.3em;
+}
+
+.mouth{
+  background: black;
+  height: 8px;
+  width: 90px;
+  margin: -3px 0 0 10px;
+  border-radius: 2px;
 }
