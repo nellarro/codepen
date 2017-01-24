@@ -1,7 +1,25 @@
+:root {
+  --shadow1: 1px solid rgba(0, 0, 0, 0.2);
+  --shadow2: 2px solid rgba(0, 0, 0, 0.2);
+}
+
 body { background: yellow;}
+
+.ear {
+  display: inline-block;
+  background: brown;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.right-ear {
+  margin-left: 10.5em;
+}
 
 .head {
   background: brown;
+  border: var(--shadow2);
   height: 400px;
   width: 400px;
   border-radius: 50%;
@@ -9,16 +27,6 @@ body { background: yellow;}
   top: 50%;
   left: 50%;
   margin: -200px 0 0 -200px;
-}
-
-.right-eye {
-  background: white;
-  height: 60px;
-  width: 60px;
-  border-radius: 80%;
-  border: 2px solid black;
-  margin-top: 5em;
-  margin-left: calc(9em + 100px)
 }
 
 .pupil{
@@ -37,24 +45,25 @@ body { background: yellow;}
 
 .snout {
   background: tan;
-  border: 1px solid black;
+  border: var(--shadow1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 6em;
   width: 6em;
   border-radius: 50%;
   margin: -1em 0 0 8em;
 }
 
-.nose{
-  background: black;
+.nose {
+  background: rgba(31, 30, 30, 0.98);
   height: 30px;
   width: 60px;
+  border: var(--shadow2);
   border-radius: 80%;
-  margin-top: 1em;
-  margin-left: 1.3em;
+  margin: 1em 0 0 1.3em;
 }
 
 .mouth{
-  background: black;
+  background: rgba(31, 30, 30, 1);
   height: 8px;
   width: 90px;
   margin: -3px 0 0 10px;
