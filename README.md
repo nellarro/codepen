@@ -9,5 +9,5 @@ More than likely completed weekly but I shall keep them stored here until each i
 
 ####CSS Loaders (Not part of the challenge)
 **Links**: 
--[Jumping Marbles](https://codepen.io/nellarro/pen/ygoqdx)
--[Loading Circles](https://codepen.io/nellarro/pen/zNdJaG)
+- [Jumping Marbles](https://codepen.io/nellarro/pen/ygoqdx)
+- [Loading Circles](https://codepen.io/nellarro/pen/zNdJaG)
