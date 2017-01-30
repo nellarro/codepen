@@ -1,0 +1,13 @@
+body {background: turquoise}
+
+
+.ear {
+  height: 3em;
+  width: 3em;
+  background-color: orange;
+  border-radius: 50%;
+  margin-top: 10em;
+  margin-left: 15em;
+  box-shadow: inset .5em .2em black;
+  transform: rotate(20deg);
+}
